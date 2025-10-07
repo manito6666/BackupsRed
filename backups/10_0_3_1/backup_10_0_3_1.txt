@@ -1,5 +1,5 @@
 Building configuration...
-Current configuration : 3704 bytes
+Current configuration : 3715 bytes
 !
 version 17.16
 service timestamps debug datetime msec
@@ -119,8 +119,7 @@ interface Ethernet0/2
 ip address 10.0.3.5 255.255.255.252
 !
 interface Ethernet0/3
-no ip address
-shutdown
+ip address 9.9.9.9 255.255.255.252
 !
 interface Serial1/0
 no ip address
